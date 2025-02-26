@@ -75,5 +75,23 @@ print(f"The total bill, including the tip, is: ${total:.2f}") """
 
 #FACTORIZER OF NUMBERS
 
+""" def factors(n):
+    factors = []
+    for i in range(1, n+1):
+        if n % i == 0:
+            factors.append(i)
+    return factors
+number = 1
+print(factors(number)) """
 
+#GCF
 
+""" def find_gcf(a, b):
+    # Start by assuming the greatest possible GCF is the smallest number
+    min_num = min(a, b)
+    
+    # Check all numbers from 1 up to the smallest number
+    for i in range(min_num, 0, -1):
+        if a % i == 0 and b % i == 0:  # If i divides both a and b evenly
+            return i  # Return the first common divisor, which will be the GCF
+print(find_gcf(68,20)) """
