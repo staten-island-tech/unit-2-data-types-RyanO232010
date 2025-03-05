@@ -86,12 +86,5 @@ print(factors(number)) """
 
 #GCF
 
-""" def find_gcf(a, b):
-    # Start by assuming the greatest possible GCF is the smallest number
-    min_num = min(a, b)
-    
-    # Check all numbers from 1 up to the smallest number
-    for i in range(min_num, 0, -1):
-        if a % i == 0 and b % i == 0:  # If i divides both a and b evenly
-            return i  # Return the first common divisor, which will be the GCF
-print(find_gcf(68,20)) """
+def gcf():
+    for i in range(1,x)
